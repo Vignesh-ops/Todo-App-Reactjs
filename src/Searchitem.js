@@ -7,6 +7,7 @@ const Searchitem = ({Search,setsearch}) => {
             <input type="text" 
             placeholder="Search name"
             value={Search}
+            aria-label="search item"
             onChange={(e)=>setsearch(e.target.value)}
             />
         </form>
