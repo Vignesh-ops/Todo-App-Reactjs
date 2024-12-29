@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.head{
+  background-color: blue;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+.itemscontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.itemscontainer .items{
+  list-style-type: none !important;
+  background-color: rgb(170, 178, 193);
+  margin-top: 5%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.itemscontainer .items input[type="checkbox"]{
+min-width: 40px;
+min-height: 32px;
+}
+
+.itemscontainer .items svg :hover{
+color:red;
+min-width: 40px;
+min-height: 32px;
+}
+.itemscontainer .items svg{
+  min-width: 40px;
+  min-height: 32px;
+  }
