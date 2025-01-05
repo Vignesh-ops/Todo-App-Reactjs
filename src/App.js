@@ -8,7 +8,6 @@ import Additem from './Additem';
 import Searchitem from './Searchitem';
 
 // import Colordisplay from './Colordisplay';
-// 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
 function App() {
   const APIURL = "http://localhost:3500/items"
   // Todo app functions
