@@ -7,7 +7,7 @@ import { useState, useRef, useEffect } from "react";
 import Additem from './Additem';
 import Searchitem from './Searchitem';
 
-// import Colordisplay from './Colordisplay';
+// import Colordisplay from './Colordisplayd';
 function App() {
   const APIURL = "http://localhost:3500/items"
   // Todo app functions
